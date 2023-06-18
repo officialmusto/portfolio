@@ -6,23 +6,25 @@ import '../NavBar/NavBar.css'
 
 function NavBar() {
   return (
-    <nav className='nav'>
-    <HashLink smooth to="/#home">
-        home
-    </HashLink>
+    <div id="nav-el">
+      <nav className='nav'>
+      <HashLink smooth to="/#home">
+          home
+      </HashLink>
 
-    <HashLink smooth to="/#about">
-      about
-    </HashLink>
+      <HashLink smooth to="/#about">
+        about
+      </HashLink>
 
-    <HashLink smooth to="/#portfolio">
-      portfolio
-    </HashLink>
+      <HashLink smooth to="/#portfolio">
+        portfolio
+      </HashLink>
 
-    <HashLink smooth to="/#resume">
-      resume
-    </HashLink>
-</nav>
+      <HashLink smooth to="/#resume">
+        resume
+      </HashLink>
+  </nav>
+</div>
   )
 }
 
