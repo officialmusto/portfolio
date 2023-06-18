@@ -1,7 +1,7 @@
-import { useState } from 'react'
+// css
 import './App.css'
 
-//components
+// components
 import NavBar from './components/NavBar/NavBar'
 
 function App() {
