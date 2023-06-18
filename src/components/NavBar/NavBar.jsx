@@ -1,16 +1,13 @@
-// npm modules
-import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-
 // css
 import '../NavBar/NavBar.css'
 
 function NavBar() {
   return (
     <div className="nav">
+      <a href="/home">home</a>
+      <a href="/about-me">about me</a>
       <a href="/portfolio">portfolio</a>
-      <a href="/portfolio">about me</a>
-      <a href="/portfolio">contact me</a>
+      <a href="/resume">resume</a>
     </div>
   )
 }
