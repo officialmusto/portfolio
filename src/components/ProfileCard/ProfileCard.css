@@ -1,4 +1,23 @@
+#home {
+  margin: 50px;
+  padding: 100px;
+  border: solid red 2px;
+  border-radius: 19px;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .profile-picture {
   max-height: 350px;
   border-radius: 300px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
 }
