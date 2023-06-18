@@ -1,14 +1,28 @@
+// npm modules
+import { HashLink } from 'react-router-hash-link'
+
 // css
 import '../NavBar/NavBar.css'
 
 function NavBar() {
   return (
-    <div className="nav">
-      <a href="/home">home</a>
-      <a href="/about">about me</a>
-      <a href="/portfolio">portfolio</a>
-      <a href="/resume">resume</a>
-    </div>
+    <nav className='nav'>
+    <HashLink smooth to="/#home">
+        home
+    </HashLink>
+
+    <HashLink smooth to="/#about">
+      about
+    </HashLink>
+
+    <HashLink smooth to="/#portfolio">
+      portfolio
+    </HashLink>
+
+    <HashLink smooth to="/#resume">
+      resume
+    </HashLink>
+</nav>
   )
 }
 

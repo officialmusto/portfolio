@@ -10,10 +10,9 @@ function ProfileCard() {
       <div className='profile-card'>
         <img 
         className="profile-picture"
-        style={{height: "450px"}}
         src={profilePicture} 
         alt="profile picture" />
-        
+
       </div>
     </>
   )

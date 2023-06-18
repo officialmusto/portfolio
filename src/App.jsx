@@ -14,8 +14,10 @@ function App() {
   return (
     <>
       <NavBar />
-      <ProfileCard />
-      <About />
+      <div className='all-el'>
+        <ProfileCard />
+        <About />
+      </div>
     </>
   )
 }
