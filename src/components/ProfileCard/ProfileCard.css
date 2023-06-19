@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "avenir-next";
+  src: url(assets/fonts/AvenirNextLTPro-Heavy.woff) format("woff");
+  src: url(assets/fonts/AvenirNextLTPro-Heavy.woff) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #home {
   margin: 50px;
   padding: 50px;
@@ -13,6 +21,7 @@
 }
 
 .name {
+  font-family: "avenir-next";
   text-align: center;
   margin-bottom: 70px;
 }
