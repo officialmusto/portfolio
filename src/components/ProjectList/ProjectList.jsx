@@ -1,8 +1,30 @@
+// assets
+import cssIcon from "../../../public/assets/icons/css-icon.svg"
+import gitIcon from "../../../public/assets/icons/git-icon.svg"
+import htmlIcon from "../../../public/assets/icons/html-icon.svg"
+import jsIcon from "../../../public/assets/icons/javascript-icon.svg"
+import mongoDbIcon from "../../../public/assets/icons/mongodb-icon.svg"
+import nodejsIcon from "../../../public/assets/icons/nodejs-icon.svg"
+import postgresIcon from "../../../public/assets/icons/postgres-icon.svg"
+import reactIcon from "../../../public/assets/icons/react-icon.svg"
+import sequelizeIcon from "../../../public/assets/icons/sequelize-icon.svg"
+import tsIcon from "../../../public/assets/icons/typescript-icon.svg"
+import viteIcon from "../../../public/assets/icons/vite-icon.svg"
+
 
 function ProjectList() {
+
+  const badges = [
+    cssIcon, gitIcon, htmlIcon, jsIcon, 
+    mongoDbIcon, nodejsIcon, postgresIcon, reactIcon, sequelizeIcon, tsIcon, viteIcon
+  ]
+
   return (
     <>
-      <h1>Project List</h1>
+      <h1>Project List</h1> 
+      {badges.map((badge, idx) => {
+        return <img key={idx} src={badge} alt="badge-icon" />
+      })}
     </>
   )
 }

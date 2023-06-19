@@ -5,7 +5,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import About from './components/About/About'
 import ProfileCard from './components/ProfileCard/ProfileCard'
-// import ProjectList from './components/ProjectList/ProjectList'
+import ProjectList from './components/ProjectList/ProjectList'
 // import Resume from './components/Resume/Resume'
 
 
@@ -17,6 +17,7 @@ function App() {
       <div className='all-el'>
         <ProfileCard />
         <About />
+        <ProjectList />
       </div>
     </>
   )

@@ -2,10 +2,10 @@
 import "../ProfileCard/ProfileCard.css"
 
 // assets
-import profilePicture from "../../assets/profile-picture.jpg"
-import githubLogo from "../../assets/github-logo.svg"
-import emailLogo from "../../assets/email-logo.svg"
-import linkedinLogo from "../../assets/linkedin-logo.svg"
+import profilePicture from "../../../public/assets/profile-picture.jpg"
+import githubLogo from "../../../public/assets/github-logo.svg"
+import emailLogo from "../../../public/assets/email-logo.svg"
+import linkedinLogo from "../../../public/assets/linkedin-logo.svg"
 
 function ProfileCard() {
   return (
