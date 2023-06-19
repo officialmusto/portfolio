@@ -23,3 +23,27 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+#github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+
+#email-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+
+#linkedin-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
