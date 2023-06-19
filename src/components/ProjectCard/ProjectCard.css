@@ -1,0 +1,12 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+#thumbnail {
+  max-height: 250px;
+}
+
+#badge {
+  max-height: 25px;
+}

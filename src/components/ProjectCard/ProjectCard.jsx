@@ -1,18 +1,19 @@
 // css
-import '../ProjectCard/ProjectCard.css'
+import "../ProjectCard/ProjectCard.css"
 
-
-
-function ProjectCard( { project } ) {
+function ProjectCard({ project }) {
   return (
-    <>
-      <h2>{project.title}</h2>
-      <img src={project.thumbnail} alt="thumbnail" />
-      <h2>{project.desc}</h2>
-      {project.badges.map((badge, idx) => {
-        return <img key={idx} src={badge} alt="badge icon" />
-      })}
-    </>
+    <div className="project-card">
+      <h2 id="title">{project.title}</h2>
+      <img id="thumbnail" src={project.thumbnail} alt="thumbnail" />
+      <h2 id="desc">{project.desc}</h2>
+      <div className="badges">
+        <h3>tools used:</h3>
+        {project.badges.map((badge, idx) => {
+          return <img id="badge" key={idx} src={badge} alt="badge icon" />
+        })}
+      </div>
+    </div>
   )
 }
 
