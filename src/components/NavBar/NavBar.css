@@ -13,7 +13,7 @@
   font-family: "avenir-next-bold";
   font-size: 1.6rem;
   text-decoration: none;
-  color: #e2e2e2;
+  color: #9596de;
   display: flex;
   justify-content: space-around;
   margin-right: 10px;
@@ -24,5 +24,5 @@ a:visited {
   color: inherit;
 }
 a:hover {
-  color: rgb(132, 132, 233);
+  color: #5bc3fb;
 }

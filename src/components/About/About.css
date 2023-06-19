@@ -25,10 +25,20 @@ h1 {
 
 .connect-link-div {
   margin: 40px;
+  color: #9596de;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
 }
 
 #connect-link {
-  font-family: "avenir-next-regular";
+  
+  font-family: "avenir-next-bold";
   font-size: 1.9rem;
   max-width: 100px;
   margin: 50px;
