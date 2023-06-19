@@ -20,7 +20,7 @@ h1 {
   margin: 15px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: "avenir-next-regular";
+  font-family: "avenir-next-regular", Arial, Helvetica, sans-serif;
 }
 
 .connect-link-div {
@@ -37,7 +37,7 @@ a:visited {
 }
 
 #connect-link {
-  font-family: "avenir-next-bold";
+  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
   font-size: 1.9rem;
   max-width: 100px;
   margin: 50px;
