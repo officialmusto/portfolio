@@ -12,7 +12,7 @@
 
 #title {
   font-family: "avenir-next-bold";
-  font-size: 40px;
+  font-size: 2.4rem;
     color: #212121;
 }
 
@@ -29,7 +29,7 @@
   margin: 14px;
   padding: 18px;
   text-align: center;
-  font-size: 17px;
+  font-size: 1rem;
 }
 
 .badges {

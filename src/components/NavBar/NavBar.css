@@ -6,13 +6,23 @@
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  background-color: aqua;
-  z-index: 0;
+  background-color: #dacdbc;
 }
 
 .nav {
+  font-family: "avenir-next-bold";
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #e2e2e2;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 10px;
   margin-left: 10px;
 } 
+
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: rgb(132, 132, 233);
+}

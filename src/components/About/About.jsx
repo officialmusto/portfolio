@@ -19,8 +19,8 @@ function About() {
           with me and explore how our collaboration can elevate your software
           development projects to new heights.
         </p>
-        <div id="lets-connect">
-          <a
+        <div className="connect-link-div">
+          <a id="connect-link"
           href="mailto: christianmustoj@gmail.com">let's connect
           </a>
         </div>

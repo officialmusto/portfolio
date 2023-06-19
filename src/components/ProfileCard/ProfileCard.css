@@ -17,7 +17,7 @@
   font-family: "avenir-next-bold";
   font-weight: normal;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.7rem;
   letter-spacing: 7px;
   margin-bottom: -50px;
   margin-top: -50px;
@@ -29,6 +29,7 @@
 
 .brand-statement {
   font-family: "avenir-next-light";
+  font-size: 1rem;
   margin: 15px;
   display: flex;
   justify-content: center;

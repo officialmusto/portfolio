@@ -23,8 +23,13 @@ h1 {
   font-family: "avenir-next-regular";
 }
 
-#lets-connect {
+.connect-link-div {
+  margin: 40px;
+}
+
+#connect-link {
   font-family: "avenir-next-regular";
+  font-size: 1.9rem;
   max-width: 100px;
   margin: 50px;
 }
