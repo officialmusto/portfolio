@@ -19,6 +19,11 @@ function About() {
           with me and explore how our collaboration can elevate your software
           development projects to new heights.
         </p>
+        <div id="lets-connect">
+          <a
+          href="mailto: christianmustoj@gmail.com">let's connect
+          </a>
+        </div>
       </section>
     </>
   )

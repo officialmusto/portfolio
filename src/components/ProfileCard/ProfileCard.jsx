@@ -24,7 +24,7 @@ function ProfileCard() {
                 alt="email logo"
                 style={{ height: "23px" }}
               />
-              <a href="mailTo: christianmustoj@gmail.com">christianmustoj@gmail.com</a>
+              <a href="mailto: christianmustoj@gmail.com">christianmustoj@gmail.com</a>
             </div>
             <div id="github-link">
               <img
@@ -37,7 +37,7 @@ function ProfileCard() {
             <div id="linkedin-link">
               <img
                 src={linkedinLogo}
-                alt="email logo"
+                alt="linkedin logo"
                 style={{ height: "20px" }}
               />
               <a href="https://www.linkedin.com/in/christian-musto/">LinkedIn</a>

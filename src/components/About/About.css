@@ -1,4 +1,15 @@
 #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 10px;
   text-align: center;
+  border: solid 2px red;
+  border-radius: 15px;
+}
+
+#lets-connect {
+  max-width: 100px;
+  margin: 50px;
 }
