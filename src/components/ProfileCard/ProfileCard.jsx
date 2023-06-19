@@ -14,6 +14,9 @@ function ProfileCard() {
         <div className="name">
           <h1>Christian Musto</h1>
         </div>
+        <div className="brand-statement">
+          <h2>Full stack software developer</h2>
+        </div>
         <div className="profile-card">
           <img
             className="profile-picture"

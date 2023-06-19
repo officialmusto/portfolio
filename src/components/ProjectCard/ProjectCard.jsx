@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // css
 import "../ProjectCard/ProjectCard.css"
 
@@ -8,7 +9,6 @@ function ProjectCard({ project }) {
       <img id="thumbnail" src={project.thumbnail} alt="thumbnail" />
       <h2 id="desc">{project.desc}</h2>
       <div className="badges">
-        <h3>tools used:</h3>
         {project.badges.map((badge, idx) => {
           return <img id="badge" key={idx} src={badge} alt="badge icon" />
         })}

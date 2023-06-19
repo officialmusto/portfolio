@@ -1,9 +1,16 @@
 @font-face {
   font-family: "avenir-next";
-  src: url(public/assets/fonts/avenirNext-heavy-webfont.woff) format("woff");
-  src: url(public/assets/fonts/avenirNext-heavy-webfont.woff2) format("woff2");
+  src: url(public/assets/fonts/avenirNext-bold-webfont.woff) format("woff");
+  src: url(public/assets/fonts/avenirNext-bold-webfont.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: "avenir-next-light";
+  src: url(public/assets/fonts/avenirNext-light-webfont.woff) format("woff");
+  src: url(public/assets/fonts/avenirNext-light-webfont.woff2) format("woff2");
+  font-weight: light;
+  font-style: light;
 }
 
 #home {
@@ -11,6 +18,7 @@
   padding: 50px;
   border: solid red 2px;
   border-radius: 19px;
+  margin-top: 100px;
 }
 
 .profile-card {
@@ -22,8 +30,20 @@
 
 .name {
   font-family: "avenir-next";
+  font-weight: normal;
   text-align: center;
-  margin-bottom: 70px;
+  font-size: 30px;
+  letter-spacing: 7px;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+.brand-statement {
+  font-family: "avenir-next-light";
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-picture {

@@ -1,10 +1,27 @@
 .project-card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 #thumbnail {
+  border: none;
+  border-radius: 13px;
   max-height: 250px;
+}
+
+#desc {
+  font-size: 17px;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
 }
 
 #badge {

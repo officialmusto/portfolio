@@ -8,7 +8,8 @@ function NavBar() {
   return (
     <div id="nav-el">
       <nav className="nav">
-        <HashLink smooth to="/#home">
+        <HashLink 
+        smooth to="/#home">
           home
         </HashLink>
 

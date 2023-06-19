@@ -18,6 +18,9 @@ import hhThumbnail from "../../../public/assets/habit-hero-screenshot.png"
 // components
 import ProjectCard from "../ProjectCard/ProjectCard"
 
+// css
+import "../ProjectList/ProjectList.css"
+
 function ProjectList() {
   const projects = [
     {title: "BlackJack21",
@@ -48,7 +51,7 @@ function ProjectList() {
 
   return (
     <section id="portfolio">
-      <h1>Project List</h1> 
+      <h1 >Project List</h1> 
       {projects.map((project, idx) => {
         return <ProjectCard key={idx} project={project} />
       })}
