@@ -13,17 +13,40 @@ import viteIcon from "../../../public/assets/icons/vite-icon.svg"
 
 
 function ProjectList() {
-
-  const badges = [
-    cssIcon, gitIcon, htmlIcon, jsIcon, 
-    mongoDbIcon, nodejsIcon, postgresIcon, reactIcon, sequelizeIcon, tsIcon, viteIcon
+  const projects = [
+    {title: "BlackJack21",
+    desc: "description of blackjack project.",
+    badges: [
+      jsIcon, htmlIcon, cssIcon, gitIcon 
+    ]},
+    {title: "Smash Bros. Reviews",
+    desc: "description of Smash Bros. Reviews project.",
+    badges: [
+      jsIcon, htmlIcon, cssIcon, gitIcon, mongoDbIcon, nodejsIcon
+    ]},
+    {title: "StyleSwipe",
+    desc: "description of StyleSwipe project.",
+    badges: [
+      jsIcon, htmlIcon, cssIcon, gitIcon, mongoDbIcon, nodejsIcon, reactIcon, viteIcon
+    ]},
+    {title: "Habit Hero!",
+    desc: "description of Habit Hero! project.",
+    badges: [
+      jsIcon, htmlIcon, cssIcon, gitIcon, mongoDbIcon, nodejsIcon, reactIcon, viteIcon, tsIcon, postgresIcon, sequelizeIcon
+    ]}
   ]
+
 
   return (
     <>
       <h1>Project List</h1> 
-      {badges.map((badge, idx) => {
-        return <img key={idx} src={badge} alt="badge-icon" />
+      {projects.map(project => {
+        return <>
+        <h2>{project.title}</h2>
+        <h2>{project.desc}</h2>
+        {project.badges.map((badge, idx) => {
+          return <img key={idx} src={badge} alt="badge icon" />
+        })}</>
       })}
     </>
   )
