@@ -12,10 +12,8 @@ function Resume() {
     <>
       <section id="resume">
         <h1 id="resume-text">Resume Page</h1>
-        <button className="download-button">
-          <a href={resumeDownload} download>download
+          <a className="download-link" href={resumeDownload} download>download
           </a>
-        </button>
         <div className='resume-pages'>
           <img 
           src={resumeP1} 

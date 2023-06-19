@@ -5,7 +5,8 @@
   flex-direction: column;
 }
 
-.download-button {
+.download-link {
+  color: #9596de;
   border: none;
   border-radius: 50px;
   margin-bottom: 30px;
@@ -22,5 +23,6 @@
 }
 
 #resume-text {
+  font-size: 3rem;
   color: aliceblue;
 }

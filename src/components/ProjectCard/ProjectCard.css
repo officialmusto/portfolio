@@ -32,6 +32,35 @@
   font-size: 1rem;
 }
 
+.project-links {
+  font-family: "avenir-next-bold";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #9596de;
+  margin: 8px;
+  gap: 80px; /* Adjust the spacing as needed */
+}
+
+.github-link {
+  display: flex;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.deployed-link {
+  display: flex;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
 .badges {
   display: flex;
   justify-content: center;
