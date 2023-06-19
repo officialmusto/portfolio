@@ -14,9 +14,9 @@ function ProfileCard() {
           src={profilePicture} 
           alt="profile picture" />
           <div className='links'>
-          <h3>Email: christianmustoj@gmail.com</h3>
-          <h3>linkedIn: christianmustoj@gmail.com</h3>
-          <h3>GitHub: christianmustoj@gmail.com</h3>
+            <h3>Email: christianmustoj@gmail.com</h3>
+            <h3>linkedIn: christianmustoj@gmail.com</h3>
+            <h3>GitHub: christianmustoj@gmail.com</h3>
           </div>
       </div>
       </section>
