@@ -98,7 +98,7 @@ function ProjectList() {
     <section id="portfolio">
       <h1 id="project-list-text">Project List</h1>
       {projects.map((project, idx) => {
-        return <ProjectCard key={idx} project={project} />
+        return <ProjectCard key={idx} project={project} cardIdx={idx} />
       })}
     </section>
   )
