@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "avenir-next-bold";
+  src: url(public/assets/fonts/avenirNext-bold-webfont.woff) format("woff");
+  src: url(public/assets/fonts/avenirNext-bold-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "avenir-next-light";
+  src: url(public/assets/fonts/avenirNext-light-webfont.woff) format("woff");
+  src: url(public/assets/fonts/avenirNext-light-webfont.woff2) format("woff2");
+  font-weight: light;
+  font-style: light;
+}
+@font-face {
+  font-family: "avenir-next-regular";
+  src: url(public/assets/fonts/avenirNext-regular-webfont.woff) format("woff");
+  src: url(public/assets/fonts/avenirNext-regular-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .all-el {
   display: flex;
   justify-content: center;
@@ -5,3 +27,4 @@
   flex-direction: column;
   margin-top: 50px;
 }
+
