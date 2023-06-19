@@ -51,7 +51,7 @@ function ProjectList() {
 
   return (
     <section id="portfolio">
-      <h1 >Project List</h1> 
+      <h1 id="project-list-text">Project List</h1> 
       {projects.map((project, idx) => {
         return <ProjectCard key={idx} project={project} />
       })}

@@ -1,9 +1,12 @@
 #portfolio {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 10px;
 }
 
-h1 {
+#project-list-text {
+  font-family: "avenir-next-bolder";
+  font-size: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px
 }

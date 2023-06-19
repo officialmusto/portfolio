@@ -3,11 +3,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 800px;
+  padding: 25px;
   margin-bottom: 100px;
+  border-radius: 18px;
+  background-color: antiquewhite;
 }
 
 #title {
+  font-family: "avenir-next-bold";
   font-size: 40px;
+    color: #212121;
 }
 
 #thumbnail {
@@ -17,7 +23,11 @@
 }
 
 #desc {
+  font-family: "avenir-next-light";
+  word-spacing: 1px;
+  line-height: 23px;
   margin: 14px;
+  padding: 18px;
   text-align: center;
   font-size: 17px;
 }

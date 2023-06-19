@@ -12,7 +12,7 @@ function ProfileCard() {
     <>
       <section id="home">
         <div className="name">
-          <h1>Christian Musto</h1>
+          <h1 id="name-text">Christian Musto</h1>
         </div>
         <div className="brand-statement">
           <h2>Full stack software developer</h2>

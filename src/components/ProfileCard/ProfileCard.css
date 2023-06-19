@@ -1,10 +1,9 @@
-
 #home {
+  margin-top: 50px;
   scroll-margin-top: 100px;
   padding: 50px;
-  border: solid red 2px;
   border-radius: 19px;
-  margin-top: 100px;
+  background-color: antiquewhite;
 }
 
 .profile-card {
@@ -15,13 +14,17 @@
 }
 
 .name {
-  font-family: "avenir-next";
+  font-family: "avenir-next-bold";
   font-weight: normal;
   text-align: center;
   font-size: 30px;
   letter-spacing: 7px;
   margin-bottom: -50px;
   margin-top: -50px;
+}
+
+#name-text {
+  color: #373737;
 }
 
 .brand-statement {
@@ -36,17 +39,24 @@
   margin: 50px;
   margin-top: -20px;
   max-height: 350px;
-  border-radius: 300px;
+  border-radius: 50%;
 }
 
 .links {
+  font-family: "avenir-next-bold";
   gap: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+a {
+  text-decoration: none;
+}
+
 #github-link {
+  
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;

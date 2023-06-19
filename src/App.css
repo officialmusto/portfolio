@@ -2,8 +2,8 @@
   font-family: "avenir-next-bold";
   src: url(public/assets/fonts/avenirNext-bold-webfont.woff) format("woff");
   src: url(public/assets/fonts/avenirNext-bold-webfont.woff2) format("woff2");
-  font-weight: normal;
-  font-style: normal;
+  font-weight: bold;
+  font-style: bold;
 }
 @font-face {
   font-family: "avenir-next-light";
@@ -18,6 +18,17 @@
   src: url(public/assets/fonts/avenirNext-regular-webfont.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: "avenir-next-bolder";
+  src: url(public/assets/fonts/avenirNext-heavy-webfont.woff) format("woff");
+  src: url(public/assets/fonts/avenirNext-heavy-webfont.woff2) format("woff2");
+  font-weight: bolder;
+  font-style: bolder;
+}
+
+body {
+  background-color: #766e63;
 }
 
 .all-el {
