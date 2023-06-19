@@ -6,7 +6,7 @@ function About() {
     <>
       <section id="about">
         <h1>About Me</h1>
-        <p>
+        <p id="about-text">
           Welcome! I'm Christian Musto, a certified Software Engineer based in
           Cleveland, Ohio. With a proven track record in customer service, I
           seamlessly transitioned into the world of software development, driven

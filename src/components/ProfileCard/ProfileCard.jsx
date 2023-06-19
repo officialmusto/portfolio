@@ -11,6 +11,9 @@ function ProfileCard() {
   return (
     <>
       <section id="home">
+        <div className="name">
+          <h1>Christian Musto</h1>
+        </div>
         <div className="profile-card">
           <img
             className="profile-picture"
@@ -32,7 +35,7 @@ function ProfileCard() {
                 alt="github logo"
                 style={{ height: "20px" }}
               />
-              <a href="https://github.com/officialmusto?tab=repositories">GitHub</a>
+              <a href="https://github.com/officialmusto">GitHub</a>
             </div>
             <div id="linkedin-link">
               <img

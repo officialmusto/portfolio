@@ -9,6 +9,11 @@
   border-radius: 15px;
 }
 
+#about-text {
+  margin: 15px;
+
+}
+
 #lets-connect {
   max-width: 100px;
   margin: 50px;
