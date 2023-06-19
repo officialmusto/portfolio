@@ -3,7 +3,7 @@
 }
 
 #project-list-text {
-  font-family: "avenir-next-bolder";
+  font-family: "avenir-next-bolder", Arial, Helvetica, sans-serif;
   color: aliceblue;
   font-size: 4rem;
   display: flex;

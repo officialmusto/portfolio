@@ -14,7 +14,7 @@
 }
 
 .name {
-  font-family: "avenir-next-bold";
+  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
   font-weight: normal;
   text-align: center;
   font-size: 1.7rem;
@@ -28,7 +28,7 @@
 }
 
 .brand-statement {
-  font-family: "avenir-next-light";
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   margin: 15px;
   display: flex;
@@ -44,7 +44,7 @@
 }
 
 .links {
-  font-family: "avenir-next-bold";
+  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
   gap: 50px;
   display: flex;
   flex-direction: row;

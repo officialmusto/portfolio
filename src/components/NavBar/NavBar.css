@@ -10,7 +10,7 @@
 }
 
 .nav {
-  font-family: "avenir-next-bold";
+  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   text-decoration: none;
   color: #9596de;
