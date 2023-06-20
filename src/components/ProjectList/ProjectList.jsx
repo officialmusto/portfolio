@@ -69,7 +69,7 @@ function ProjectList() {
       ],
     },
     {
-      title: "Smash Bros. Reviews",
+      title: "Smash Reviews",
       links: [
         {
           github: "https://github.com/officialmusto/smash-bros-reviews",

@@ -73,7 +73,7 @@ body {
 
 @media (max-width: 700px) {
   #root {
-    height: 550vh;
+    height: 500vh;
   }
   body {
   background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
