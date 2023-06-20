@@ -8,14 +8,12 @@
   height: 586px;
   text-align: center;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);
 
   border-radius: 2.4%;
 }
 
-h1 {
+#about-title {
   font-size: 2.4rem;
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   color: #eaeaea;
@@ -54,4 +52,23 @@ a:hover {
   color: #a6a7ee;
   max-width: 100px;
   margin: 50px;
+}
+
+@media (max-width: 500px) {
+  #about {
+    padding-bottom: 110px;
+    padding-top: 110px;
+  }
+  #about-title {
+    font-size: 3rem;
+  }
+  #about-text {
+    line-height: 35px;
+    font-size: 1.8rem;
+  }
+
+  #connect-link {
+    padding-bottom: 40px;
+    font-size: 2.8rem;
+  }
 }

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 800px;
+  
   padding: 25px;
   margin-bottom: 100px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -12,7 +12,7 @@
 
 #title {
   font-family: "avenir-next-regular", Arial, Helvetica, sans-serif;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   color: #eaeaea;
 }
 
@@ -24,18 +24,18 @@
 
 #desc {
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
   color: #eaeaea;
   word-spacing: 1px;
-  line-height: 23px;
+  line-height: 33px;
   margin: 14px;
   padding: 18px;
   text-align: center;
-  font-size: 1rem;
 }
 
 .project-links {
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -47,7 +47,7 @@
 
 .github-link {
   display: flex;
-  width: 140px;
+  width: 200px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -55,7 +55,7 @@
 }
 .deployed-link {
   display: flex;
-  width: 140px;
+  width: 200px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -65,12 +65,25 @@
 
 .badges {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 100%;
   align-items: center;
   flex-direction: row;
-  gap: 20px;
 }
 
 #badge {
-  max-height: 25px;
+  max-height: 40px;
+}
+
+@media (max-width: 700px) {
+  #title{
+    font-size: 4rem;
+  }
+  #desc {
+    line-height: 40px;
+    font-size: 1.8rem;
+  }
+  .project-links {
+    font-size: 2rem;
+  }
 }

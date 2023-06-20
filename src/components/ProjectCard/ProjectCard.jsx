@@ -19,7 +19,7 @@ function ProjectCard({ project, cardIdx }) {
                 <img
                   src={githubIcon}
                   alt="github-icon"
-                  style={{ maxHeight: "20px" }}
+                  style={{ maxHeight: "30px" }}
                 />
                 <a id="github-text" href={link.github}>
                   github
@@ -29,7 +29,7 @@ function ProjectCard({ project, cardIdx }) {
                 <img
                   src={deployedIcon}
                   alt="deployed-icon"
-                  style={{ maxHeight: "20px" }}
+                  style={{ maxHeight: "30px" }}
                 />
                 <a id="deployed-text" href={link.deployedSite}>
                   deployed site

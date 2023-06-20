@@ -29,3 +29,9 @@ a:visited {
 a:hover {
   color: #5bc3fb;
 }
+
+@media (max-width: 700px) {
+  .nav {
+    font-size: .9rem;
+  }
+}

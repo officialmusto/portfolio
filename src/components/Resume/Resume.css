@@ -19,7 +19,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 100px;
-  margin-bottom: -900px;
   padding: 100px;
 }
 
@@ -31,6 +30,27 @@
 }
 
 #resume-text {
-  font-size: 3rem;
-  color: aliceblue;
+  font-size: 2.4rem;
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+  color: #eaeaea;
+}
+
+@media (max-width: 700px) {
+  #resume {
+    scroll-margin-top: 50px;
+  }
+  .resume-pages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #resume-text {
+    font-size: 4.4rem;
+    font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+    color: #eaeaea;
+  }
+  .download-link {
+    font-size: 3.5rem;
+    padding: 60px;
+  }
 }

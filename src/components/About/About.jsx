@@ -5,7 +5,7 @@ function About() {
   return (
     <>
       <section id="about">
-        <h1>About Me</h1>
+        <h1 id="about-title">About Me</h1>
         <p id="about-text">
           Welcome! I'm Christian Musto, a certified Software Engineer based in
           Cleveland, Ohio. With a proven track record in customer service, I
