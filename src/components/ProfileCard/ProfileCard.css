@@ -1,35 +1,38 @@
 #home {
-  margin-top: 50px;
   scroll-margin-top: 100px;
   padding: 50px;
-  border-radius: 19px;
-  background-color: antiquewhite;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);
+  border-radius: 2.4%;
 }
 
 .profile-card {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  
 }
 
 .name {
-  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
   font-weight: normal;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 2.7rem;
   letter-spacing: 7px;
   margin-bottom: -50px;
   margin-top: -50px;
+
 }
 
 #name-text {
-  color: #373737;
+  color: #eaeaea;
+  font-family: "avenir-next-bold";
 }
 
 .brand-statement {
+  letter-spacing: 2px;
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  color: #eaeaea;
   margin: 15px;
   display: flex;
   justify-content: center;
@@ -44,25 +47,27 @@
 }
 
 .links {
-  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
-  gap: 50px;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  align-items: start;
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+  gap: 50px;
+  flex-direction: column;
   color: #9596de;
+  
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #a6a7ee;
 }
 
 a:visited {
-  color: inherit;
+  color: #a6a7ee;
 }
 
 a:hover {
-  color: #5bc3fb;
+  color: #ebeaec;
 }
 
 #github-link {

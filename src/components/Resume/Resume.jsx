@@ -15,14 +15,16 @@ function Resume() {
           <a className="download-link" href={resumeDownload} download>download
           </a>
         <div className='resume-pages'>
-          <img 
+          <img
+          id="resume-1" 
           src={resumeP1} 
           alt="resume page 1"
           style={{
             maxHeight: "550px", 
             borderRadius: "9px"}}
           />
-          <img 
+          <img
+          id="resume-2" 
           src={resumeP2}
           alt="resume page 1"
           style={{

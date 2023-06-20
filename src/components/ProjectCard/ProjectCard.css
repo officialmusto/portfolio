@@ -6,24 +6,25 @@
   max-width: 800px;
   padding: 25px;
   margin-bottom: 100px;
-  border-radius: 18px;
-  background-color: antiquewhite;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);  border-radius: 2.4%;
 }
 
 #title {
-  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
+  font-family: "avenir-next-regular", Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
-    color: #212121;
+  color: #eaeaea;
 }
 
 #thumbnail {
   border: none;
-  border-radius: 13px;
+  border-radius: 2.4%;
   max-height: 250px;
 }
 
 #desc {
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+  color: #eaeaea;
   word-spacing: 1px;
   line-height: 23px;
   margin: 14px;
@@ -33,7 +34,8 @@
 }
 
 .project-links {
-  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

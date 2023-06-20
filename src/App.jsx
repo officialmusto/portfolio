@@ -15,10 +15,14 @@ function App() {
     <>
       <NavBar />
       <div className='all-el'>
-        <ProfileCard />
-        <About />
-        <ProjectList />
-        <Resume />
+        <div className='profile-and-about'>
+          <ProfileCard />
+          <About />
+        </div>
+        <div className='projects-and-resume'>
+          <ProjectList />
+          <Resume />
+        </div>
       </div>
     </>
   )

@@ -1,26 +1,33 @@
 #resume {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
 
 .download-link {
-  color: #9596de;
+  color: #a6a7ee;
   font-size: 2rem;
   border: none;
   border-radius: 50px;
-  margin-bottom: 30px;
+  margin-bottom: -100px;
   padding: 14px;
-  font-family: "avenir-next-bolder", Arial, Helvetica, sans-serif;
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
 }
 
 .resume-pages {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
-  margin-bottom: 50px;
+  gap: 100px;
+  margin-bottom: -900px;
+  padding: 100px;
+}
+
+#resume-1, #resume-2 {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);
+  border-radius: 2.4%;
+
 }
 
 #resume-text {

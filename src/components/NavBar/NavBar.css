@@ -6,22 +6,25 @@
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  background-color: #dacdbc;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.496);
+  z-index: 1;
 }
 
 .nav {
-  font-family: "avenir-next-bold", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   text-decoration: none;
   color: #9596de;
-  display: flex;
-  justify-content: space-around;
   margin-right: 10px;
   margin-left: 10px;
 } 
 
 a:visited {
-  color: inherit;
+  color: #9596de;
 }
 a:hover {
   color: #5bc3fb;

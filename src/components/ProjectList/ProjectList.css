@@ -1,10 +1,11 @@
 #portfolio {
   scroll-margin-top: 25px;
+  
 }
 
 #project-list-text {
-  font-family: "avenir-next-bolder", Arial, Helvetica, sans-serif;
-  color: aliceblue;
+  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
+  color: rgb(215, 215, 215);
   font-size: 4rem;
   display: flex;
   justify-content: center;
