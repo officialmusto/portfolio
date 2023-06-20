@@ -6,7 +6,7 @@
 #project-list-text {
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   color: rgb(215, 215, 215);
-  font-size: 4rem;
+  font-size: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +14,11 @@
 }
 
 @media (max-width: 500px) {
-#portfolio {
-  scroll-margin-top: 50px;
-}
+  #portfolio {
+    scroll-margin-top: 50px;
+  }
+  #project-list-text {
+    font-size: 5rem;
+  }
 
 }

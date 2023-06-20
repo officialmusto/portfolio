@@ -20,6 +20,7 @@
   align-items: center;
   gap: 100px;
   padding: 100px;
+  margin-bottom: -900px;
 }
 
 #resume-1, #resume-2 {
@@ -36,6 +37,7 @@
 }
 
 @media (max-width: 700px) {
+
   #resume {
     scroll-margin-top: 50px;
   }
