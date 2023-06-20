@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 
 // assets
-import githubIcon from "../../../public/assets/github-logo.svg"
-import deployedIcon from "../../../public/assets/icons/deployed-icon.svg"
+import githubIcon from "../../assets/github-logo.svg"
+import deployedIcon from "../../assets/icons/deployed-icon.svg"
 
 // css
 import "../ProjectCard/ProjectCard.css"

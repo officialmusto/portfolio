@@ -1,7 +1,7 @@
 // assets
-import resumeDownload from "../../../public/assets/christian-musto-resume.pdf"
-import resumeP1 from "../../../public/assets/christian-musto-resume-1.png"
-import resumeP2 from "../../../public/assets/christian-musto-resume-2.png"
+import resumeDownload from "../../assets/christian-musto-resume.pdf"
+import resumeP1 from "../../assets/christian-musto-resume-1.png"
+import resumeP2 from "../../assets/christian-musto-resume-2.png"
 
 // css
 import '../Resume/Resume.css'
