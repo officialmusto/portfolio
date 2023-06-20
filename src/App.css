@@ -31,11 +31,16 @@ body {
   background-color: #1b1b1b;
   background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
   background-size: 100% 250%;
-
   animation: gradientAnimation 10s ease infinite;
+  -webkit-animation: gradientAnimation 10s ease infinite;
 }
 
 @keyframes gradientAnimation {
+  0% { background-position: 0% 70%; }
+  50% { background-position: 100% 30%; }
+  100% { background-position: 0% 80%; }
+}
+@-webkit-keyframes gradientAnimation {
   0% { background-position: 0% 70%; }
   50% { background-position: 100% 30%; }
   100% { background-position: 0% 80%; }
@@ -73,7 +78,6 @@ body {
   body {
   background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
   background-size: 100% 150%;
-  animation: gradientAnimation 10s ease infinite;
   }
 
   .all-el {
