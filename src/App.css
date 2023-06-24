@@ -97,7 +97,7 @@ html {
   }
 }
 
-@media (max-width: 1200px) and (orientation: landscape) {
+@media (max-width: 850px) and (orientation: landscape) {
   .all-el {
     transform: scale(.7);
   }
