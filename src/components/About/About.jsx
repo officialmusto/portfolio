@@ -3,7 +3,7 @@ import "./About.css"
 
 function About() {
   return (
-    <>
+    <div className="about-box">
       <section id="about">
         <h1 id="about-title">About Me</h1>
         <p id="about-text">
@@ -25,7 +25,7 @@ function About() {
           </a>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 

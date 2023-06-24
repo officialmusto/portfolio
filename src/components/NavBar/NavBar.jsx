@@ -13,10 +13,6 @@ function NavBar() {
           home
         </HashLink>
 
-        <HashLink smooth to="/#about">
-          about
-        </HashLink>
-
         <HashLink smooth to="/#portfolio">
           portfolio
         </HashLink>

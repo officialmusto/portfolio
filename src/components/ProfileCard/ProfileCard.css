@@ -1,29 +1,21 @@
 #home {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   padding: 50px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);
   border-radius: 2.4%;
-}
-
-.profile-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   
 }
 
-.name {
+#name-text {
   font-weight: normal;
   text-align: center;
   font-size: 2.7rem;
   letter-spacing: 7px;
-  margin-bottom: -50px;
-  margin-top: -50px;
-
-}
-
-#name-text {
   color: #eaeaea;
   font-family: "avenir-next-bold";
 }
@@ -49,10 +41,10 @@
 .links {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
   align-items: start;
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   gap: 50px;
-  flex-direction: column;
   color: #9596de;
   
 }
@@ -96,13 +88,12 @@ a:hover {
   flex-direction: row;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   #home {
-    justify-content: space-evenly;
   }
+
   .profile-card {
-    justify-content: space-evenly;
-    flex-direction: column;
+    
   }
   #name-text {
     font-size: 4rem;
@@ -118,4 +109,10 @@ a:hover {
     font-size: 1.68rem;
     flex-direction: row;
   }
+}
+@media screen and (orientation: landscape) {
+  #home {
+    scroll-margin-top: 100px
+  }
+
 }
