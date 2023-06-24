@@ -2,7 +2,7 @@
 import "../ProfileCard/ProfileCard.css"
 
 // assets
-import profilePicture from "../../assets/profile-picture.jpg"
+import profilePicture from "../../assets/profile-picture.png"
 import githubLogo from "../../assets/github-logo.svg"
 import emailLogo from "../../assets/email-logo.svg"
 import linkedinLogo from "../../assets//linkedin-logo.svg"
