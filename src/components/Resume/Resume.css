@@ -87,3 +87,12 @@
     color: #eaeaea;
   }
 }
+@media (max-width: 850px) {
+
+  #resume {
+    scroll-margin-top: 90px;
+  }
+  .resume-pages {
+    flex-direction: column;
+  }
+}

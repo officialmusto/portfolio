@@ -82,6 +82,14 @@ html {
 }
 
 /* ---------------------------------------- */
+
+@media (max-width: 1500px) {
+  .profile-and-about {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
 @media (max-width: 850px) {
   body {
   background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
@@ -98,28 +106,19 @@ html {
     flex-flow: column wrap
   }
 }
-
-@media (max-width: 1500px) {
-  .profile-and-about {
-    align-items: center;
-    flex-direction: column;
-  }
-
-}
 @media (max-width: 850px) and (orientation: landscape) {
   .all-el {
-    transform: scale(.7);
-  }
+    
+}
   
   .profile-and-about {
     flex-direction: column;
-
   }
 
 }
 
 @media (max-width: 500px) {
-  .all-el {
+  .all-el { 
     transform: scale(.4);
     align-items: center;
   }

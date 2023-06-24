@@ -91,11 +91,9 @@ a:hover {
 
 @media (max-width: 850px) {
   #home {
+    margin-top: 50px;
   }
 
-  .profile-card {
-    
-  }
   #name-text {
     font-size: 4rem;
     margin-bottom: 25px;

@@ -26,7 +26,7 @@
   font-family: "avenir-next-regular", Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   color: #dfdfdf;
-  line-height: 60px;
+  line-height: 3rem;
 }
 
 .connect-link-div {
@@ -62,7 +62,7 @@ a:hover {
     font-size: 3rem;
   }
   #about-text {
-    line-height: 35px;
+    line-height: 3rem;
     font-size: 1.8rem;
   }
 
