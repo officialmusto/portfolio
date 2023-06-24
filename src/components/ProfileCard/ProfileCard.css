@@ -1,5 +1,6 @@
 #home {
   scroll-margin-top: 150px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -115,4 +116,10 @@ a:hover {
     scroll-margin-top: 100px
   }
 
+}
+
+@media (max-width: 1200px) {
+  #home {
+
+  }
 }

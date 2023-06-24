@@ -65,6 +65,7 @@ html {
 
 .profile-and-about {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   margin: 50px;
   margin-top: 10%;
@@ -90,6 +91,7 @@ html {
   .all-el {
     transform: scale(.6);
     align-items: center;
+    justify-content: center;
   }
 
   .profile-and-about {
@@ -97,6 +99,13 @@ html {
   }
 }
 
+@media (max-width: 1500px) {
+  .profile-and-about {
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
 @media (max-width: 850px) and (orientation: landscape) {
   .all-el {
     transform: scale(.7);
