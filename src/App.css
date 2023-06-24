@@ -47,8 +47,14 @@ body {
 }
 /* ---------------------------------------- */
 
+div#root {
+  height: 450vh;
+}
+/* Update soon^ */
+
 html {
   box-sizing: border-box;
+
 }
 
 *, *::before, *::after {
@@ -92,7 +98,6 @@ html {
 }
 @media (max-width: 850px) {
   body {
-  background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
   background-size: 100% 150%;
   }
 
@@ -107,9 +112,6 @@ html {
   }
 }
 @media (max-width: 850px) and (orientation: landscape) {
-  .all-el {
-    
-}
   
   .profile-and-about {
     flex-direction: column;
