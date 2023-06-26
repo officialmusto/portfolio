@@ -96,3 +96,9 @@
     flex-direction: column;
   }
 }
+@media (max-width: 850px) and (orientation: landscape) {
+  .resume-pages {
+    flex-direction: row;
+  }
+
+}
