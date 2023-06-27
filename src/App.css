@@ -30,9 +30,8 @@
 body {
   background-color: #1b1b1b;
   background-image: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
-  background-size: 200% 200%;
+  background-size: 200%;
   animation: gradientAnimation 10s ease infinite;
-  width: 100%;
 }
 
 @keyframes gradientAnimation {
@@ -50,7 +49,7 @@ body {
 
 html {
   box-sizing: border-box;
-
+  width: 100%;
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -59,7 +58,7 @@ html {
 .all-el {
   display: flex;
   flex-direction: column;
-  margin-top: 110px;
+  margin-top: 50px;
 }
 
 .profile-and-about {
@@ -93,8 +92,15 @@ html {
 
 @media (max-width: 500px) {
 
+  body {
+    background-color: #1b1b1b;
+    background-image: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+  }
   .profile-and-about {
     flex-direction: column;
 
   }
+
 }

@@ -24,7 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px;
+  margin-top: 100px;
 }
 
 #resume-1, #resume-2 {
