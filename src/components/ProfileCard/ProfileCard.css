@@ -37,13 +37,12 @@
 
 .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
-  align-items: start;
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
   font-size: .8rem;
-  gap: 50px;
   color: #9596de;
+  gap: 20px;
   
 }
 
@@ -85,7 +84,6 @@ a:hover {
     width: 350px;
   }
   .links {
-    justify-content: space-around;
     flex-direction: column;
   }
 }
