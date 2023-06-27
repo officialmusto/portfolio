@@ -32,6 +32,7 @@ body {
   background-image: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
   background-size: 200% 200%;
   animation: gradientAnimation 10s ease infinite;
+  width: 100%;
 }
 
 @keyframes gradientAnimation {
@@ -59,7 +60,6 @@ html {
   display: flex;
   flex-direction: column;
   margin-top: 110px;
-
 }
 
 .profile-and-about {
@@ -92,9 +92,7 @@ html {
 
 
 @media (max-width: 500px) {
-  .all-el { 
-    align-items: center;
-  }
+
   .profile-and-about {
     flex-direction: column;
 

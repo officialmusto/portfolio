@@ -31,7 +31,7 @@ a:hover {
   color: #5bc3fb;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .nav {
     font-size: 1.2rem;
   }

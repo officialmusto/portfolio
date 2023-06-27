@@ -1,8 +1,7 @@
 #home {
-  scroll-margin-top: 150px;
+  scroll-margin-top: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   padding: 50px;
   margin: 50px;
@@ -65,24 +64,28 @@ a:hover {
   
   text-decoration: none;
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
-  flex-direction: row;
+  gap: 5px
 }
 
 #email-link {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
-  flex-direction: row;
+  gap: 5px
 }
 
 #linkedin-link {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
-  flex-direction: row;
+  gap: 5px
+}
+
+@media (max-width: 500px) {
+  #home {
+    width: 350px;
+  }
+  .links {
+    justify-content: space-around;
+    flex-direction: column;
+  }
 }
