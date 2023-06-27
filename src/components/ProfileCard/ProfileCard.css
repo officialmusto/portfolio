@@ -93,4 +93,8 @@ a:hover {
   .links {
     flex-direction: column;
   }
+
+  #brand-statement {
+    font-size: .8rem;
+  }
 }
