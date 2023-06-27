@@ -24,7 +24,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 100px;
   padding: 100px;
 }
 
@@ -59,51 +58,11 @@
   }
 }
 
-/* @media (max-width: 850px) {
+/* -------------------------- */
 
-  #resume {
-    scroll-margin-top: 100px;
-  }
-  .resume-pages {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  #resume-text {
-    font-size: 4.4rem;
-    font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
-    color: #eaeaea;
-  }
-  .download-link {
-    font-size: 4rem;
-    padding: 60px;
-  }
-}
-@media screen and (orientation: landscape) {
-  #resume {
-    scroll-margin-top: 100px
-  }
-  .download-link {
-    font-size: 4rem;
-  }
-  #resume-text {
-    font-size: 4.4rem;
-    font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
-    color: #eaeaea;
-  }
-}
 @media (max-width: 850px) {
-
-  #resume {
-    scroll-margin-top: 90px;
-  }
   .resume-pages {
     flex-direction: column;
   }
-}
-@media (max-width: 850px) and (orientation: landscape) {
-  .resume-pages {
-    flex-direction: row;
-  }
 
-} */
+}

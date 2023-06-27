@@ -6,12 +6,12 @@
   padding: 25px;
   margin-bottom: 50px;
   background: linear-gradient(135deg, rgba(34, 11, 40, 0.316), rgba(255, 255, 255, 0));
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);  border-radius: 3.4%;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);  border-radius: 2rem;
 }
 
 #title {
   font-family: "avenir-next-regular", Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #eaeaea;
 }
 
@@ -35,11 +35,11 @@
 
 .project-links {
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
-  font-size: .8rem;
+  font-size: .6rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  text-align: left;
   color: #9596de;
   margin: 8px;
   gap: 80px;
@@ -74,29 +74,4 @@
 
 #badge {
   max-height: 20px;
-}
-
-@media (max-width: 700px) {
-  .project-card {
-    height: 100%;
-  }
-  #title{
-    font-size: 4rem;
-  }
-  #desc {
-    line-height: 3rem;
-    font-size: 2.3rem;
-  }
-  .project-links {
-    flex-direction: column;
-    width: 700px;
-    font-size: 3rem;
-  }
-  .deployed-link {
-    width: 100%;
-    padding: 35px;
-  }
-  .github-link {
-    width: 100%;
-  }
 }

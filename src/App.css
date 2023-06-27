@@ -55,22 +55,23 @@ html {
   box-sizing: inherit;
 }
 
-
-
 .all-el {
   display: flex;
   flex-direction: column;
-  margin-left: 250px;
-  margin-right: 250px;
   margin-top: 110px;
+
 }
 
 .profile-and-about {
+  margin: 40px;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.about-child {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-bottom: 10%;
-  gap: 80px;
+  align-self: center;
+    
 }
 
 
@@ -78,45 +79,17 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+  padding: 50px;
 }
 
 /* ---------------------------------------- */
 
-@media (max-width: 1500px) {
-  .profile-and-about {
-    align-items: center;
+@media (max-width: 1250px) {
+  .about-child {
     flex-direction: column;
   }
-  
 }
-@media (max-width: 850px) {
-  body {
-  background-size: 100% 150%;
-  }
 
-  .all-el {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .profile-and-about {
-    flex-flow: column wrap
-  }
-}
-@media (max-width: 850px) and (orientation: landscape) {
-  
-  div#root {
-    height: 100vh;
-  }
-
-  @keyframes gradientAnimation {
-    0% { background-position: 100% 0%; }
-    50% { background-position: 0% 100%; }
-    100% { background-position: 100% 0%; }
-  }
-
-}
 
 @media (max-width: 500px) {
   .all-el { 
