@@ -19,6 +19,12 @@
   letter-spacing: 7px;
 }
 
+.name-text-statment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #brand-statement {
   display: flex;
   justify-content: center;
