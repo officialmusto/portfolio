@@ -66,3 +66,13 @@
   }
 
 }
+@media (max-width: 850px) and (orientation: landscape){
+  .resume-pages {
+    flex-direction: row;
+  }
+
+  #resume-1, #resume-2 {
+    height: 300px;
+  }
+
+}
