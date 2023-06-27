@@ -22,7 +22,7 @@ function About() {
           </p>
           <div className="connect-link-div">
             <a id="connect-link"
-            href="mailto: christianmustoj@gmail.com">let's connect
+            href="mailto: christianmustoj@gmail.com">Let's Connect
             </a>
           </div>
         </section>
