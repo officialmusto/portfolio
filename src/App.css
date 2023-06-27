@@ -60,16 +60,15 @@ html {
 .all-el {
   display: flex;
   flex-direction: column;
-  margin: 350px;
-  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 110px;
 }
 
 .profile-and-about {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin: 50px;
-  margin-top: 10%;
   margin-bottom: 10%;
   gap: 80px;
 }

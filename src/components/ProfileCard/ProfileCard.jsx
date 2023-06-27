@@ -11,9 +11,9 @@ function ProfileCard() {
   return (
     <>
       <div id="home">
-        <h1 id="name-text">Christian Musto</h1>
-        <div className="brand-statement">
-          <h2>Full stack software developer</h2>
+        <div className="name-text-statement">
+          <h1 id="name-text">Christian Musto</h1>
+          <h2 id="brand-statement">Full stack software developer</h2>
         </div>
         <img
           className="profile-picture"

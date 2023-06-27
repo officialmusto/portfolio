@@ -95,12 +95,14 @@ function ProjectList() {
   ]
 
   return (
-    <section id="portfolio">
+    <>
       <h1 id="project-list-text">Project List</h1>
-      {projects.map((project, idx) => {
-        return <ProjectCard key={idx} project={project} cardIdx={idx} />
-      })}
-    </section>
+      <section id="portfolio">
+        {projects.map((project, idx) => {
+          return <ProjectCard key={idx} project={project} cardIdx={idx} />
+        })}
+      </section>
+    </>
   )
 }
 
