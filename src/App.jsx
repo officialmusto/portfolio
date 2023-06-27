@@ -10,10 +10,10 @@ import Resume from './components/Resume/Resume'
 
 
 function App() {
-
+  
   return (
     <>
-      <NavBar />
+    <NavBar />
       <div className='all-el'>
         <div className='profile-and-about'>
           <div className='about-child'>

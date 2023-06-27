@@ -32,7 +32,7 @@ function ProjectCard({ project, cardIdx }) {
                   style={{ maxHeight: "30px" }}
                 />
                 <a id="deployed-text" href={link.deployedSite}>
-                  Deployed Site
+                  Deployed
                 </a>
               </div>
             </div>
