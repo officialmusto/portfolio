@@ -56,7 +56,7 @@ function ProjectList() {
         },
       ],
       thumbnail: ssThumbnail,
-      desc: "StyleSwipe is a collaborative project I worked on with a team of three engineers. This MERN stack social media application was developed using MongoDB, Express.js, Node.js, React, JWT, HTML, and CSS. We successfully implemented JWT authentication to ensure secure user registration and login functionalities. Leveraging the power of the MERN stack, we built a fully functional application in just two days, incorporating all CRUD operations and RESTful API calls. With a mobile-first approach, we created a visually appealing application using Styled-Components and CSS, utilizing flexbox layouts. You can explore the project on GitHub or try out the app yourself.",
+      desc: "StyleSwipe is a collaborative MERN stack social media application developed with MongoDB, Express.js, Node.js, and React, featuring JWT authentication and a mobile-first design using Styled-Components and CSS. The project showcases efficient teamwork, delivering a fully functional application with CRUD operations and RESTful API calls in just two days. Dive into the project on GitHub or experience the app firsthand to explore StyleSwipe's features.",
       badges: [
         jsIcon,
         htmlIcon,
@@ -77,7 +77,7 @@ function ProjectList() {
         },
       ],
       thumbnail: sbThumbnail,
-      desc: "Smash Bros. Reviews is a web application developed using Node.js, Express.js, Google OAuth, EJS, HTML, and CSS. The project features a character controller module that efficiently handles CRUD operations for characters and reviews, utilizing the Mongoose library for seamless MongoDB database interaction. I developed routes and corresponding controller functions to render character pages, display character reviews, create new reviews, edit existing reviews, and delete reviews. By leveraging EJS (Embedded JavaScript) templates, the website pages are dynamically rendered, including the index page for character selection, character show page with reviews, and forms for creating and editing reviews. User authentication and authorization functionalities have been integrated, ensuring only logged-in users can create, edit, or delete reviews, thanks to middleware restrictions. Explore the project on GitHub or try out the app yourself to dive into the world of Smash Bros. Reviews.",
+      desc: "Smash Bros. Reviews is a feature-rich web application developed with Node.js, Express.js, and MongoDB, incorporating Google OAuth for user authentication. It includes a character controller module, leveraging Mongoose for efficient CRUD operations, and dynamically rendered EJS templates for character pages, reviews, and user authorization. Check out the project on GitHub or experience it firsthand to explore the world of Smash Bros. Reviews.",
       badges: [jsIcon, htmlIcon, cssIcon, gitIcon, mongoDbIcon, nodejsIcon],
     },
     {
@@ -89,18 +89,20 @@ function ProjectList() {
         },
       ],
       thumbnail: bjThumbnail,
-      desc: "BlackJack 21 is a captivating web application developed using JavaScript, HTML, and CSS. This project showcases my strong problem-solving and algorithmic skills through the implementation of complex game logic. Player turns, card generation, hand calculations, and determining winners are all meticulously handled, ensuring an immersive and realistic gaming experience. To promote code modularity and reusability, I utilized advanced object-oriented programming principles, creating modular classes for cards, decks, and game management. Additionally, I demonstrated my problem-solving skills by effectively addressing edge cases, including player busting, the dealer's soft 17, and tie scenarios. Discover the thrill of BlackJack 21 by exploring the project on GitHub or playing the game directly from the app.",
+      desc: "BlackJack 21 is a captivating web application showcasing strong problem-solving and algorithmic skills, implemented with JavaScript, HTML, and CSS, featuring immersive game logic, modular classes, and effective handling of edge cases for an engaging and realistic gaming experience.",
       badges: [jsIcon, htmlIcon, cssIcon, gitIcon],
     },
   ]
 
   return (
-    <section id="portfolio">
+    <>
       <h1 id="project-list-text">Project List</h1>
-      {projects.map((project, idx) => {
-        return <ProjectCard key={idx} project={project} cardIdx={idx} />
-      })}
-    </section>
+      <section id="portfolio">
+        {projects.map((project, idx) => {
+          return <ProjectCard key={idx} project={project} cardIdx={idx} />
+        })}
+      </section>
+    </>
   )
 }
 

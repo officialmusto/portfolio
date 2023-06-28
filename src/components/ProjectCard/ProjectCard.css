@@ -1,48 +1,48 @@
 .project-card {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  
+  justify-content: space-evenly;
+  flex-flow: column wrap;
   padding: 25px;
-  margin-bottom: 100px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.316), rgba(255, 255, 255, 0));
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);  border-radius: 2.4%;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, rgba(34, 11, 40, 0.316), rgba(255, 255, 255, 0));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.59);  border-radius: 1.2rem;
 }
 
 #title {
   font-family: "avenir-next-regular", Arial, Helvetica, sans-serif;
-  font-size: 3.4rem;
+  font-size: 1.8rem;
   color: #eaeaea;
 }
 
 #thumbnail {
   border: none;
+  box-shadow: 0 8px 60px 0 #0d0d10;
   border-radius: 2.4%;
-  max-height: 250px;
+  max-height: 120px;
 }
 
 #desc {
-  font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
+  font-family: "avenir-next-light", Arial, Helvetica;
+  font-size: .7rem;
   color: #eaeaea;
   word-spacing: 1px;
-  line-height: 33px;
+  line-height: 1rem;
   margin: 14px;
-  padding: 18px;
+  padding: 0px;
   text-align: center;
 }
 
 .project-links {
   font-family: "avenir-next-light", Arial, Helvetica, sans-serif;
-  font-size: 1.8rem;
+  font-size: .6rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  text-align: left;
   color: #9596de;
   margin: 8px;
-  gap: 80px; /* Adjust the spacing as needed */
+  gap: 40px;
 }
 
 .github-link {
@@ -65,7 +65,7 @@
 
 .badges {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   align-items: center;
   flex-direction: row;
@@ -73,27 +73,5 @@
 }
 
 #badge {
-  max-height: 40px;
-}
-
-@media (max-width: 700px) {
-  #title{
-    font-size: 4rem;
-  }
-  #desc {
-    line-height: 40px;
-    font-size: 1.8rem;
-  }
-  .project-links {
-    flex-direction: column;
-    width: 700px;
-    font-size: 3rem;
-  }
-  .deployed-link {
-    width: 100%;
-    padding: 35px;
-  }
-  .github-link {
-    width: 100%;
-  }
+  max-height: 20px;
 }

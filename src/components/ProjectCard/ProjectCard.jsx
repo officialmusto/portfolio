@@ -22,7 +22,7 @@ function ProjectCard({ project, cardIdx }) {
                   style={{ maxHeight: "30px" }}
                 />
                 <a id="github-text" href={link.github}>
-                  github
+                  GitHub
                 </a>
               </div>
               <div className="deployed-link">
@@ -32,7 +32,7 @@ function ProjectCard({ project, cardIdx }) {
                   style={{ maxHeight: "30px" }}
                 />
                 <a id="deployed-text" href={link.deployedSite}>
-                  deployed
+                  Deployed
                 </a>
               </div>
             </div>

@@ -26,66 +26,71 @@
   font-weight: bolder;
   font-style: bolder;
 }
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   background-color: #1b1b1b;
-  background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
-  background-size: 100% 250%;
+  background-image: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
+  background-size: 200%;
   animation: gradientAnimation 10s ease infinite;
-  -webkit-animation: gradientAnimation 10s ease infinite;
-}
 
+}
 @keyframes gradientAnimation {
-  0% { background-position: 0% 70%; }
-  50% { background-position: 100% 30%; }
-  100% { background-position: 0% 80%; }
+  0% { background-position: 100%; }
+  50% { background-position: 0%; }
+  100% { background-position: 100%; }
 }
 @-webkit-keyframes gradientAnimation {
-  0% { background-position: 0% 70%; }
-  50% { background-position: 100% 30%; }
-  100% { background-position: 0% 80%; }
+  0% { background-position: 100%; }
+  50% { background-position: 0%; }
+  100% { background-position: 100%; }
 }
+/* ---------------------------------------- */
+
 
 .all-el {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 50px;
-  transform: scale(0.8);
-  transform-origin: top;
 }
 
 .profile-and-about {
+  margin: 40px;
+  justify-content: space-around;
+  align-self: center;
+  width: 100%;
+}
+
+.about-child {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin: 50px;
-  gap: 80px;
 }
+
 
 .projects-and-resume {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+  padding: 50px;
 }
 
-@media (max-width: 700px) {
-  #root {
-    height: 500vh;
-  }
-  body {
-  background: linear-gradient(45deg, #463030, #4a465b, #4d5c5b, #534658, #275157);
-  background-size: 100% 150%;
-  }
+/* ---------------------------------------- */
 
-  .all-el {
-    transform: scale(0.45);
-    transform-origin: top;
+@media (max-width: 1250px) {
+  .about-child {
+    flex-direction: column;
   }
+}
 
+
+@media (max-width: 500px) {
   .profile-and-about {
     flex-direction: column;
   }
+
 }
