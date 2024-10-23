@@ -16,7 +16,7 @@
   font-family: "avenir-next-bold";
   font-weight: bold; 
   text-align: center;
-  letter-spacing: 7px;
+  letter-spacing: 2px;
 }
 
 .name-text-statment {
@@ -37,7 +37,7 @@
 }
 
 .profile-picture {
-  height: 120px;
+  height: 190px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
